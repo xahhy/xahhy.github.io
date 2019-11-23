@@ -11,7 +11,7 @@
       {% endif %}
     </title>
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/assets/res/favicon.ico">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/font.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
     {% for css in layout.css %}
@@ -47,9 +47,9 @@
           <i class="material-icons">menu</i>
         </a>
       </div>
-      <ul id="slide-out" class="side-nav fixed">
+      <ul id="slide-out" class="sidenav sidenav-fixed">
         <li>
-          <div class="userView">
+          <div class="user-view">
             <div class="background"></div>
             <a href="{{site.github_profile}}" target="_blank"><img class="circle z-depth-2" src="{{site.baseurl}}/assets/res/user.png"></a>
             <span class="white-text name">{{site.user}}</span>
